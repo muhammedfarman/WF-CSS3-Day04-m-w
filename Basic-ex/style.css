@@ -8,11 +8,11 @@ h1 {
 
 h3 {
   margin: 0 0 5px 0;
-  color: darkgreen;
+  color: color1;
   font-size: 15px; }
 
 header {
-  background-image: linear-gradient(to bottom right, darkgreen, yellowgreen); }
+  background-image: linear-gradient(to bottom right, color1, yellowgreen); }
 
 nav {
   padding: 10px;
@@ -43,7 +43,7 @@ nav {
   font-weight: 600;
   text-decoration: underline; }
 .text a:visited {
-  color: yellowgreen;
+  color: black;
   font-size: 12px;
   font-weight: 600;
   text-decoration: none; }
@@ -68,7 +68,7 @@ main {
 article {
   margin: 10px auto;
   width: 400px;
-  background-color: yellowgreen;
+  background-color: black;
   border-radius: 10px;
   box-shadow: 2px 2px 8px darkgray;
   transform: rotate(0deg);
@@ -76,7 +76,7 @@ article {
   transition-duration: 2s; }
 
 #a1:hover {
-  background-color: orangered;
+  background-color: black;
   border-radius: 50px;
   box-shadow: 10px 10px 33px orange;
   transform: rotate(15deg); }

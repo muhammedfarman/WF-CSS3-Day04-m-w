@@ -1,0 +1,138 @@
+
+/****header***/
+.header.container{
+    max-width: 100%;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 auto;
+    
+}
+.h-img{
+    
+    display: flex;
+    justify-content: space-between;
+
+   size: 30%;
+}
+.h-img>img{
+    width:23%;
+}
+.h-text{width:40%;
+   
+    padding-top: 2.3vw;
+    padding-right:35%;
+ }
+.header.container>.h-img>img{
+    width:40%;
+}
+.h-text>p{ font-size: 2vw;}
+
+/****naviBar**/
+
+
+
+.navi-bar{}
+.nav{ background-color:brown; }
+li{display:inline-block;padding:.7vw 0 .7vw 0;margin:0}
+li a{color:#fff;text-decoration:none;
+    font-weight:700;
+    margin:0;
+    font-size: 1.5vw;
+    padding:.7vw 1vw .7vw 1vw}
+li a:hover{background:#dedede;color:#500e10}
+nav{font-size:18px}
+nav{padding:0}
+/***first container***/
+.mid{
+    width:100%;
+    text-align: center;
+    height:25vw;
+}
+.mid>h1{
+    font-size: 7vw;
+  
+}
+/****seperator****/
+
+.sep-line{
+    background-color: gray;
+height: 3vw;
+margin-bottom: 3vw;}
+.sep-line>p{
+    font-size: 2vw;
+}
+/***picture boxes **/
+.card-box{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    width:40vw;
+    height:30vw;
+    margin: 3vw;
+}
+.card>img{
+    max-width: 100%;
+    min-width: 80%;
+height:28vw;
+border-radius: 3vw}
+/**** desc***/
+.desc {
+    
+    background-color: black;
+    color:white;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: -4vw;
+    position: absolute;
+    width: 40vw;
+    text-align: center;
+    border-bottom-left-radius: 3vw;
+    border-bottom-right-radius:3vw;
+   padding-bottom: 3vw;
+    font-size: 150%%;
+    
+    
+    
+    
+
+}
+#txt{
+    padding-top: 1.2vw;
+    align-items: baseline;
+    text-align: center;
+    font-size: 2vw;
+    
+    
+}
+
+/***** footer ***/
+.footerlogo{
+    margin-top:3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+hr{
+    display: border;
+border-style: 3vw brown;
+    margin-top: 3vw;
+}
+.footerlogo>img{padding:3vw;
+    width:20%;
+}
+hr {
+    height: 10px;
+    border: 1;
+    box-shadow: inset 0 9px 9px -3px brown;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    }
