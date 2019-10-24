@@ -32,7 +32,7 @@
 
 
 
-.navi-bar{}
+
 .nav{ background-color:brown; }
 li{display:inline-block;padding:.7vw 0 .7vw 0;margin:0}
 li a{color:#fff;text-decoration:none;
@@ -78,9 +78,9 @@ margin-bottom: 3vw;}
 }
 .card>img{
     max-width: 100%;
-    min-width: 80%;
+    
 height:28vw;
-border-radius: 3vw}
+border-radius: 3vw;}
 /**** desc***/
 .desc {
     
@@ -88,14 +88,15 @@ border-radius: 3vw}
     color:white;
     flex-wrap: wrap;
     align-items: flex-start;
-    margin-top: -4vw;
+    margin-top: -10.48vw;
     position: absolute;
     width: 40vw;
     text-align: center;
     border-bottom-left-radius: 3vw;
     border-bottom-right-radius:3vw;
    padding-bottom: 3vw;
-    font-size: 150%%;
+    font-size: 150%;
+    opacity: 0.5;
     
     
     
@@ -136,3 +137,21 @@ hr {
     -o-border-radius: 5px;
     border-radius: 5px;
     }
+    @media  screen and (max-width: 600px) {
+        
+        .mid {
+            zoom:2;
+        }
+        .card{
+         zoom: 2;
+        }
+        .nav{font-size:18px}
+nav{text-align: center;
+    padding:0;}
+nav ul li>a{
+font-size: 4vw;}
+.desc{
+    margin-top: -12vw;
+}
+    }
+    
